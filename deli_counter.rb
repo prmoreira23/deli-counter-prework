@@ -5,5 +5,4 @@ def line(katz_deli)
     else
         puts katz_deli
     end
-
 end
