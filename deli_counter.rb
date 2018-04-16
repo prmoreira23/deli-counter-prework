@@ -18,11 +18,11 @@ def take_a_number(array, people)
     puts "Welcome, #{people}. You are number #{array.size} in line." if people.class == String
 end
 
-def now_serving(line)
-    if line.size < 1
+def now_serving(deli)
+    if deli.empty?
         puts "There is nobody waiting to be served!"
     else
-        person = line.shift
+        person = deli.shift
         puts "Currently serving #{person}."
     end
 end
